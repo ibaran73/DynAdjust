@@ -9837,7 +9837,7 @@ void dna_adjust::PrintAdjStation(ostream& os,
 	// To minimise re-computation when printing to .xyz, .adj and .apu, the type b uncertainties are 
 	// added to the estimated variances held in memory. This is not a problem since, if adjust is 
 	// re-run and the user does not supply type b uncertainties, the variances held in memory will be 
-	// re-estimated which will overwrite the type b values that were previously applied.
+	// re-estimated which will overwrite the type b values that were previously applied. 
 
 	// Add type B uncertainties (if required)
 	if (reapplyTypeBUncertainties &&
