@@ -195,7 +195,7 @@ void dna_io_tbu::load_tbu_file(const string& tbu_filename, v_type_b_uncertainty&
 {
 	// Type B uncertainty file structure is as follows.
 	// Note - uncertainties are in metres, in the local reference frame (e,n,u)
-	// and are given at 1 sigma (68%). 
+	// and are given at 1 sigma (68%) . 
 	//
 	//   station id (20 chars)  east uncertainty (13) north uncertainty (13) up uncertainty (13)
 	//      ...
